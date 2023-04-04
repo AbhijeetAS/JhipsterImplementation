@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Courses baru",
+        "createOrEditLabel": "Buat atau edit Courses",
+        "notFound": "No Courses found"
+      },
+      "created": "Courses dengan id {{ param }} telah dibuat",
+      "updated": "Courses dengan id {{ param }} telah diperbaharui",
+      "deleted": "Courses dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Courses {{ id }}?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

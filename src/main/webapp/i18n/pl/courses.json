@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Courses",
+        "createOrEditLabel": "Dodaj lub edytuj: Courses",
+        "notFound": "No Courses found"
+      },
+      "created": "Utworzono nowy obiekt typu Courses z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Courses z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Courses z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Courses {{ id }}?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

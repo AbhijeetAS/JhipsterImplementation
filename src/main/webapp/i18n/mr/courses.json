@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नवीन Courses तयार करा",
+        "createOrEditLabel": "Courses तयार किंवा संपादित करा",
+        "notFound": "No Courses found"
+      },
+      "created": "Courses [identifier: {{ param }}] तयार आहे",
+      "updated": "Courses [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Courses [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Courses [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

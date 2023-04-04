@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Courses",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Courses",
+        "notFound": "No Courses found"
+      },
+      "created": "Նոր Courses ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Courses թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Courses հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Courses {{ id }}?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

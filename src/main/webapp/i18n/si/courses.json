@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "නව Courses එකක් සාදන්න",
+        "createOrEditLabel": "Courses සාදන්න හෝ සංස්කරණය කරන්න",
+        "notFound": "Courses හමු නොවීය"
+      },
+      "created": "{{ param }} හඳුනාගැනීමෙන් නව Courses සාදනු ලැබේ",
+      "updated": "{{ param }} හඳුනාගැනීමෙන් Courses යාවත්කාලීන වේ",
+      "deleted": "{{ param }} හඳුනාගැනීමෙන් Courses මකා දමනු ලැබේ",
+      "delete": {
+        "question": "Courses {{ id }} මකා දැමීමට ඔබට විශ්වාසද?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

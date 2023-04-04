@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Courses",
+        "createOrEditLabel": "Skapa eller ändra en Courses",
+        "notFound": "No Courses found"
+      },
+      "created": "En ny Courses är skapad med id {{ param }}",
+      "updated": "En Courses är uppdaterad med id  {{ param }}",
+      "deleted": "En Courses är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Courses {{ id }}?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

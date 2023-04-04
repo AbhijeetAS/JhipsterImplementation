@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Courses",
+        "createOrEditLabel": "Vytvořit nebo upravit Courses",
+        "notFound": "No Courses found"
+      },
+      "created": "Byl vytvořen potomek entity Courses s identifikátorem {{ param }}",
+      "updated": "Potomek entity Courses s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Courses s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Courses {{ id }}?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Courses erstellen",
+        "createOrEditLabel": "Courses erstellen oder bearbeiten",
+        "notFound": "Keine Courses gefunden"
+      },
+      "created": "Courses erstellt mit ID {{ param }}",
+      "updated": "Courses aktualisiert mit ID {{ param }}",
+      "deleted": "Courses gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Courses {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Янги Courses қўшиш",
+        "createOrEditLabel": "Coursesни таҳрирлаш",
+        "notFound": "No Courses found"
+      },
+      "created": "Courses {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Courses сақланди.",
+      "deleted": "{{ param }}- Courses ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Coursesни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

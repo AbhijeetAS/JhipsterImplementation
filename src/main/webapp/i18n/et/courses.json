@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Värskenda nimekirja",
+        "createLabel": "Lisa uus Courses",
+        "createOrEditLabel": "Lisa või muuda Courses",
+        "notFound": "Ei leitud ühtegi Courses"
+      },
+      "created": "Uus Courses on loodud identifikaatoriga {{ param }}",
+      "updated": "Courses identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Courses identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Courses {{ id }}?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

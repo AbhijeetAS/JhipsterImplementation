@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Courses-ஐ உருவாக்கு",
+        "createOrEditLabel": "Courses -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Courses found"
+      },
+      "created": "Courses புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Courses மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Courses நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Courses {{ id }}?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Creeare o nouă entitate Courses",
+        "createOrEditLabel": "Creeare sau editare Courses",
+        "notFound": "No Courses found"
+      },
+      "created": "A fost creată o nouă entitate Courses cu identificatorul {{ param }}",
+      "updated": "Courses cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Courses cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Courses {{ id }}?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

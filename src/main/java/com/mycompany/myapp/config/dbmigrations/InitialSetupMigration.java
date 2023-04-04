@@ -28,7 +28,12 @@ public class InitialSetupMigration {
         userAuthority = template.save(userAuthority);
         Authority adminAuthority = createAdminAuthority();
         adminAuthority = template.save(adminAuthority);
-        addUsers(userAuthority, adminAuthority);
+        Authority studentAuthority = createStudentAuthority();
+        studentAuthority = template.save(studentAuthority);
+        Authority teacherAuthority = createTeacherAuthority();
+        teacherAuthority = template.save(teacherAuthority);
+
+        addUsers(userAuthority, adminAuthority, studentAuthority, teacherAuthority);
     }
 
     @RollbackExecution
@@ -45,35 +50,63 @@ public class InitialSetupMigration {
         return adminAuthority;
     }
 
+    private Authority createStudentAuthority() {
+        Authority studentAuthority = createAuthority(AuthoritiesConstants.STUDENT);
+        return studentAuthority;
+    }
+
+    private Authority createTeacherAuthority() {
+        Authority studentAuthority = createAuthority(AuthoritiesConstants.TEACHER);
+        return studentAuthority;
+    }
+
     private Authority createUserAuthority() {
         Authority userAuthority = createAuthority(AuthoritiesConstants.USER);
         return userAuthority;
     }
 
-    private void addUsers(Authority userAuthority, Authority adminAuthority) {
-        User user = createUser(userAuthority);
-        template.save(user);
-        User admin = createAdmin(adminAuthority, userAuthority);
+    private void addUsers(Authority userAuthority, Authority adminAuthority, Authority studentAuthority, Authority teacherAuthority) {
+        User admin = createAdmin(adminAuthority, userAuthority, studentAuthority, teacherAuthority);
+        User teacher = createTeacher(teacherAuthority);
+        User student = createstudent(studentAuthority);
+        template.save(teacher);
+        template.save(student);
         template.save(admin);
     }
 
-    private User createUser(Authority userAuthority) {
-        User userUser = new User();
-        userUser.setId("user-2");
-        userUser.setLogin("user");
-        userUser.setPassword("$2a$10$VEjxo0jq2YG9Rbk2HmX9S.k1uZBGYUHdUcid3g/vfiEl7lwWgOH/K");
-        userUser.setFirstName("");
-        userUser.setLastName("User");
-        userUser.setEmail("user@localhost");
-        userUser.setActivated(true);
-        userUser.setLangKey("en");
-        userUser.setCreatedBy(Constants.SYSTEM);
-        userUser.setCreatedDate(Instant.now());
-        userUser.getAuthorities().add(userAuthority);
-        return userUser;
+    private User createstudent(Authority studentAuthority) {
+        User studentUser = new User();
+        studentUser.setId("user-3");
+        studentUser.setLogin("sanket");
+        studentUser.setPassword("$2a$10$gSAhZrxMllrbgj/kkK9UceBPpChGWJA7SYIb1Mqo.n5aNLq1/oRrC");
+        studentUser.setFirstName("sanket");
+        studentUser.setLastName("pachghare");
+        studentUser.setEmail("sanket@gmail.com");
+        studentUser.setActivated(true);
+        studentUser.setLangKey("en");
+        studentUser.setCreatedBy("admin");
+        studentUser.setCreatedDate(Instant.now());
+        studentUser.getAuthorities().add(studentAuthority);
+        return studentUser;
     }
 
-    private User createAdmin(Authority adminAuthority, Authority userAuthority) {
+    private User createTeacher(Authority teacherAuthority) {
+        User teacherUser = new User();
+        teacherUser.setId("user-2");
+        teacherUser.setLogin("ajay");
+        teacherUser.setPassword("$2a$10$gSAhZrxMllrbgj/kkK9UceBPpChGWJA7SYIb1Mqo.n5aNLq1/oRrC");
+        teacherUser.setFirstName("ajay");
+        teacherUser.setLastName("kakde");
+        teacherUser.setEmail("ajay@gmail.com");
+        teacherUser.setActivated(true);
+        teacherUser.setLangKey("en");
+        teacherUser.setCreatedBy("admin");
+        teacherUser.setCreatedDate(Instant.now());
+        teacherUser.getAuthorities().add(teacherAuthority);
+        return teacherUser;
+    }
+
+    private User createAdmin(Authority adminAuthority, Authority userAuthority, Authority studentAuthority, Authority teacherAuthority) {
         User adminUser = new User();
         adminUser.setId("user-1");
         adminUser.setLogin("admin");
@@ -87,6 +120,8 @@ public class InitialSetupMigration {
         adminUser.setCreatedDate(Instant.now());
         adminUser.getAuthorities().add(adminAuthority);
         adminUser.getAuthorities().add(userAuthority);
+        adminUser.getAuthorities().add(studentAuthority);
+        adminUser.getAuthorities().add(teacherAuthority);
         return adminUser;
     }
 }

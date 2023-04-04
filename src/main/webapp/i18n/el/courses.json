@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Courses",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Courses",
+        "notFound": "No Courses found"
+      },
+      "created": "Ένα νέο Courses έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Courses έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Courses έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Courses {{ id }};"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

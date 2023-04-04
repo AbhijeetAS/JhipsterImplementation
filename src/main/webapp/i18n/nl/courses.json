@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Courses",
+        "createOrEditLabel": "Maak of wijzig een Courses",
+        "notFound": "No Courses found"
+      },
+      "created": "A new Courses is created with identifier {{ param }}",
+      "updated": "A Courses is updated with identifier {{ param }}",
+      "deleted": "A Courses is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Courses {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Courses",
+        "createOrEditLabel": "Создать или отредактировать Courses",
+        "notFound": "Courses не найдено"
+      },
+      "created": "Новый Courses создан с идентификатором {{ param }}",
+      "updated": "Courses обновлен с идентификатором {{ param }}",
+      "deleted": "Courses удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Courses {{ id }}?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}

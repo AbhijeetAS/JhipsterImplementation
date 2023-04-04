@@ -1,0 +1,21 @@
+{
+  "changelogDate": "20230403091443",
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "courseName",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "courseCost",
+      "fieldType": "Integer",
+      "fieldValidateRules": []
+    }
+  ],
+  "name": "Courses",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

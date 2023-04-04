@@ -1,0 +1,25 @@
+{
+  "jhipsterFinalProjectApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Krijo një të ri Courses",
+        "createOrEditLabel": "Krijo ose përpuno një Courses",
+        "notFound": "No Courses found"
+      },
+      "created": "Një Courses i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Courses u përpunua me identifikues {{ param }}",
+      "deleted": "Një Courses u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Courses {{ id }}?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "courseName": "Course Name",
+      "courseCost": "Course Cost"
+    }
+  }
+}
